@@ -41,7 +41,6 @@ class MainWindow (QMainWindow):
         # Plot Widget
         self.graph = pg.PlotWidget()
         self.graph.setBackground('w')
-        self.graph.setTitle('Graphique')
         self.graph.setLabel('left', 'Temperature')
         self.graph.setLabel('bottom', 'Time')
         self.graph.addLegend()
