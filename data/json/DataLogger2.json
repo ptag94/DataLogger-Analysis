@@ -1,0 +1,432 @@
+{
+          "infos": {
+                    "JSON configuration file": "/home/acquisition/lisa_zifo_monitoring/IHM/config/init_dtlg2.json",
+                    "Data logger name": "Agilent Technologies,34980A,MY44009137,2.43-2.43-2.07-1.05",
+                    "Data logger address": "TCPIP0::169.254.1.8::inst0::INSTR",
+                    "Data logger IP": "169.254.1.8",
+                    "Data logger ID": "Agilent Technologies,34980A,MY44009137,2.43-2.43-2.07-1.05",
+                    "Data logger synchronised": "07,51,30.006",
+                    "Trigger source": "TIM",
+                    "Trigger count": "9.9E37",
+                    "Trigger time": "+4.50000000E+00 s",
+                    "Trigger delay": "+0.00000000E+00 s",
+                    "Sample count": "+1.00000000E+00",
+                    "Sweep count": "+1.00000000E+00",
+                    "Ordered scan": "1",
+                    "Scan size": "+45",
+                    "Scan list": "#3227(@1001,1002,1003,1004,1005,1006,1007,1008,1009,1010,1011,1012,1013,1014,1015,1016,1017,1020,2001,2002,2003,2004,2005,2006,2008,2009,2010,2011,2012,2013,2014,2015,2021,2031,2032,2033,2034,2035,2036,2037,2038,2039,2041,2042,2043)",
+                    "Acquisition started": "2022-06-17T07:51:34.315976 UTC"
+          },
+          "Channels configuration": {
+                    "1001": {
+                              "Probe Name": "Inj2_T2",
+                              "Probe Type": "Pt",
+                              "Ref resistance": "10000",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+04",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1002": {
+                              "Probe Name": "T_HK1",
+                              "Probe Type": "Pt",
+                              "Ref resistance": "10000",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+04",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1003": {
+                              "Probe Name": "T_HK2",
+                              "Probe Type": "NTC",
+                              "Ref resistance": "50000",
+                              "Beta coef": "4261",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+05",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1004": {
+                              "Probe Name": "T_HK3",
+                              "Probe Type": "Pt",
+                              "Ref resistance": "10000",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+04",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1005": {
+                              "Probe Name": "T_HK4",
+                              "Probe Type": "Pt",
+                              "Ref resistance": "10000",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+04",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1006": {
+                              "Probe Name": "T_HK5",
+                              "Probe Type": "NTC",
+                              "Ref resistance": "50000",
+                              "Beta coef": "4261",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+05",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1007": {
+                              "Probe Name": "T_HK6",
+                              "Probe Type": "Pt",
+                              "Ref resistance": "10000",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+04",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1008": {
+                              "Probe Name": "T_HK7",
+                              "Probe Type": "Pt",
+                              "Ref resistance": "10000",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+04",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1009": {
+                              "Probe Name": "T_HK8",
+                              "Probe Type": "NTC",
+                              "Ref resistance": "50000",
+                              "Beta coef": "4261",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+05",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1010": {
+                              "Probe Name": "T_HK14",
+                              "Probe Type": "NTC",
+                              "Ref resistance": "50000",
+                              "Beta coef": "4261",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+05",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1011": {
+                              "Probe Name": "T_HK15",
+                              "Probe Type": "NTC",
+                              "Ref resistance": "50000",
+                              "Beta coef": "4261",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+05",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1012": {
+                              "Probe Name": "T_HK16",
+                              "Probe Type": "NTC",
+                              "Ref resistance": "50000",
+                              "Beta coef": "4261",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+05",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1013": {
+                              "Probe Name": "T_HK17",
+                              "Probe Type": "NTC",
+                              "Ref resistance": "50000",
+                              "Beta coef": "4261",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+05",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1014": {
+                              "Probe Name": "T_HK18",
+                              "Probe Type": "Pt",
+                              "Ref resistance": "10000",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+04",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1015": {
+                              "Probe Name": "T_Amb",
+                              "Probe Type": "Pt",
+                              "Ref resistance": "1000",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+03",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1016": {
+                              "Probe Name": "T1_Tank",
+                              "Probe Type": "NTC",
+                              "Ref resistance": "30000",
+                              "Beta coef": "4261",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+05",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1017": {
+                              "Probe Name": "T2_Tank",
+                              "Probe Type": "Pt",
+                              "Ref resistance": "10000",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+04",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "1020": {
+                              "Probe Name": "T_Sismo",
+                              "Probe Type": "Pt",
+                              "Ref resistance": "100",
+                              "Measurement type": "\"FRES",
+                              "Range": "+1.00000000E+02",
+                              "NPLC": "+2.00000000E+00",
+                              "Zero comp": "0"
+                    },
+                    "2001": {
+                              "Probe Name": "VDCPlus_PR",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2002": {
+                              "Probe Name": "VDCMinus_PR",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2003": {
+                              "Probe Name": "DC_SEPR1",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+00",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2004": {
+                              "Probe Name": "DC_SEPR1p",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2005": {
+                              "Probe Name": "DC_SEPR2",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+00",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2006": {
+                              "Probe Name": "DC_SEPR2p",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2008": {
+                              "Probe Name": "DC_QPR1a",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2009": {
+                              "Probe Name": "DC_QPR1b",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2010": {
+                              "Probe Name": "DC_QPR1c",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2011": {
+                              "Probe Name": "DC_QPR1d",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2012": {
+                              "Probe Name": "DC_QPR3a",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2013": {
+                              "Probe Name": "DC_QPR3b",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2014": {
+                              "Probe Name": "DC_QPR3c",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2015": {
+                              "Probe Name": "DC_QPR3d",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2021": {
+                              "Probe Name": "VDC_Heaters",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2031": {
+                              "Probe Name": "PZT_Mon",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2032": {
+                              "Probe Name": "PMonSlaveOOL",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2033": {
+                              "Probe Name": "PMonMasterOOL",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2034": {
+                              "Probe Name": "DC_QPR4c",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2035": {
+                              "Probe Name": "DC_QPR4d",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2036": {
+                              "Probe Name": "DC_QPR8a",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2037": {
+                              "Probe Name": "DC_QPR8b",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2038": {
+                              "Probe Name": "DC_QPR8c",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2039": {
+                              "Probe Name": "DC_QPR8d",
+                              "Probe Type": "VDC",
+                              "Measurement type": "\"VOLT",
+                              "Range": "+1.00000000E+01",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0",
+                              "High Z": "0"
+                    },
+                    "2041": {
+                              "Probe Name": "IDCPlus_PR",
+                              "Probe Type": "IDC",
+                              "Measurement type": "\"CURR",
+                              "Range": "+1.00000000E+00",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0"
+                    },
+                    "2042": {
+                              "Probe Name": "IDCMinus_PR",
+                              "Probe Type": "IDC",
+                              "Measurement type": "\"CURR",
+                              "Range": "+1.00000000E+00",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0"
+                    },
+                    "2043": {
+                              "Probe Name": "IDC_Heaters",
+                              "Probe Type": "IDC",
+                              "Measurement type": "\"CURR",
+                              "Range": "+1.00000000E+00",
+                              "NPLC": "+2.00000000E+00",
+                              "Auto zero": "0"
+                    }
+          }
+}

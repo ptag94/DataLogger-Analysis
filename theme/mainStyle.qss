@@ -1,0 +1,48 @@
+QMainWindow{
+    background-color: #F2F3F5
+}
+
+#Graphe{
+    background-color: black
+}
+
+#MainUiButton{
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 0 10px 0;
+    font: bold 10pt;
+    border: 1px solid gray
+}
+
+#MainTableExp{
+    background-color: transparent;
+    gridline-color: transparent;
+    border: None
+}
+
+#ExpButton{
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 0 10px 0;
+    font: 10pt;
+    border: 1px solid gray
+}
+
+#SupprButton{
+    border-image: url(theme/close.png);
+    background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+#SupprButtonBackGround{
+    background-color: gray;
+    border: 1px solid gray;
+    margin: 18px 72px 19px 72px;
+    border-radius: 6px;
+    padding-right: 20px
+}
+
