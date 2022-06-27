@@ -16,7 +16,7 @@ Cette application a été codé avec :
 
 ## Interface générale et utilisation
 
-L'interface est composé d'un encadré graphique où seront tracé les différentes courbes, de 3 boutons (*Load*, *Save* et *Timed Data*) et d'un espace entre les boutons *Save* et *Timed Date* où seront affiché les différentes expériences chargées.
+L'interface est composé d'un encadré graphique où seront tracé les différentes courbes, de 4 boutons (*Load*, *Save*, *Timed Data* et *Clear*) et d'un espace entre les boutons *Save* et *Timed Date* où seront affiché les différentes expériences chargées.
 
 ---
 
@@ -24,7 +24,7 @@ L'interface est composé d'un encadré graphique où seront tracé les différen
 
 Ce bouton ouvre une première fenêtre qui demande à l'utilisateur d'ouvrir les deux fichiers *.csv* correspondant aux deux jeux de données des deux data loggers.
 
-Après avoir ouvert les deux fichiers, le programme nous demande le nom de l'expérience chargée. Ce nom n'a pas d'inscidence sur les fichiers, il n'est là qu'à titre indicatif pour l'affichage (comme une *étiquette*). Il n'y a pas de restriction sur le nombre de caractère mais je conseille de ne pas trop dépasser 20 caractères au risque de voir le nom coupé.
+Après avoir ouvert les deux fichiers, le programme nous demande le nom de l'expérience chargée. Ce nom n'a pas d'insciden, ce sur les fichiers, il n'est là qu'à titre indicatif pour l'affichage (comme une *étiquette*). Il n'y a pas de restriction sur le nombre de caractère mais je conseille de ne pas trop dépasser 20 caractères au risque de voir le nom coupé.
 
 On observera alors l'apparition de deux bouttons dans l'espace prévu à cet effet :
   * Un bouton comportant le nom de l'expérience choisie
@@ -46,6 +46,12 @@ Switch entre le temps absolu en seconde fourni par les data loggers et une éche
 
 ---
 
+### Bouton *Clear*
+
+Efface toutes les courbes sur le graphique.
+
+---
+
 ### Bouton *<Nom de l'expérience>*
 
 Affiche une fenêtre comportant deux tableaux, un pour chaque data loggers.
@@ -54,6 +60,7 @@ Dans chacun de ces tableaux on pourra retrouver:
   * Le nom du channel du data logger
   * Un bouton *Couleur*
   * Un bouton *Analyse*
+  * Un bouton *ASD*
   * Une case à cocher si l'on veut afficher sur le graphique la courbe correspondante au channel
 
 #### Bouton *Couleur*
@@ -72,6 +79,10 @@ Protocole :
   * Réalise un *fit* de la courbe référente
   * Soustrait ce *fit* à la courbe à analyser
   * Soustrait la valeur en 0 pour que la courbe affichée commence en 0
+
+#### Bouton *ASD*
+
+Trace l'ASD de la courbe voulu avec la méthode de Welch.
 
 ---
 
