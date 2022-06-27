@@ -46,11 +46,6 @@ class MainWindow (QMainWindow):
         self.savePlot.clicked.connect(lambda: savePlot(self))
         self.savePlot.setObjectName('MainUiButton')
 
-        # Save csv
-        self.saveCsv = QPushButton('Save csv')
-        self.saveCsv.clicked.connect(lambda: saveCsv(self))
-        self.saveCsv.setObjectName('MainUiButton')
-
         # Plot Widget
         self.graph = pg.PlotWidget()
         self.graph.setBackground('w')
@@ -94,7 +89,6 @@ class MainWindow (QMainWindow):
         self.leftLayout.addWidget(self.tableau)
         self.leftLayout.addWidget(self.timedButton)
         self.leftLayout.addWidget(self.clearPlot)
-        self.leftLayout.addWidget(self.saveCsv)
 
         # Add widget to the main layout
         self.baseLayout.addLayout(self.leftLayout)
