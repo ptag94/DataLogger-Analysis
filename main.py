@@ -169,7 +169,7 @@ class MainWindow (QMainWindow):
         self.optionsExpWindow.signalData.connect(self.changePlotStatus)
         self.optionsExpWindow.signalAnalyse.connect(self.analyse)
         self.optionsExpWindow.signalColor.connect(self.changeColor)
-        self.optionsExpWindow.signalPsd.connect(self.psd)
+        self.optionsExpWindow.signalPsd.connect(self.asd)
 
     def changeColor(self, sendedData: list):
         """Change the color plot of a given channel
@@ -204,7 +204,7 @@ class MainWindow (QMainWindow):
 
         loadTable(self, self.mainDataPack)
 
-    def psd(self, sendedData: list):
+    def asd(self, sendedData: list):
 
         normalPlot = False
         for expName in self.mainDataPack.keys():
@@ -226,7 +226,7 @@ class MainWindow (QMainWindow):
 
         self.timedData = False
 
-        if self.axisType != 'psd':
+        if self.axisType != 'asd':
 
             bottomAxis = pg.AxisItem('bottom')
             bottomAxis.setLabel('Fréquence (Hz)')
@@ -236,7 +236,7 @@ class MainWindow (QMainWindow):
             )
             self.graph.setLabel('left', 'T/sqrt(Hz)')
             self.graph.setLogMode(True, True)
-            self.axisType = 'psd'
+            self.axisType = 'asd'
 
         # Get names for dict's inputs
         expName: str = sendedData[0]
