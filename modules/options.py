@@ -53,10 +53,6 @@ class OptionsWindow(QWidget):
 
             self.layout.addWidget(groupBoxData)
 
-        # self.layout.addWidget(self.tableauDataLogger1)
-        # self.layout.addWidget(self.tableauDataLogger2)
-        # self.layout.addWidget(groupBoxData2)
-
         self.setLayout(self.layout)
 
         # Refresh table
@@ -136,22 +132,22 @@ class OptionsWindow(QWidget):
                 self.layoutAnalyseButton.setContentsMargins(0, 0, 0, 0)
                 analyseItem.setLayout(self.layoutAnalyseButton)
 
-                # psd button
-                psdItem = QWidget()
-                psdButton = RowButton(
+                # asd button
+                asdItem = QWidget()
+                asdButton = RowButton(
                     self.index,
-                    name='PSD',
+                    name='ASD',
                     channelName=names,
                     dataLogger=dataLoggerName,
                     parent=table
                 )
-                psdButton.setObjectName('optionsButton')
+                asdButton.setObjectName('optionsButton')
 
                 self.layoutPsdButton = QHBoxLayout()
-                self.layoutPsdButton.addWidget(psdButton)
+                self.layoutPsdButton.addWidget(asdButton)
                 self.layoutPsdButton.setAlignment(Qt.AlignHCenter)
                 self.layoutPsdButton.setContentsMargins(0, 0, 0, 0)
-                psdItem.setLayout(self.layoutPsdButton)
+                asdItem.setLayout(self.layoutPsdButton)
 
                 # Options color for the ploted channel
                 channelOptions = QWidget()
@@ -189,14 +185,14 @@ class OptionsWindow(QWidget):
                 table.setCellWidget(row, 0, nameItem)
                 table.setCellWidget(row, 1, channelOptions)
                 table.setCellWidget(row, 2, analyseItem)
-                table.setCellWidget(row, 3, psdItem)
+                table.setCellWidget(row, 3, asdItem)
                 table.setCellWidget(row, 4, graphItem)
 
                 # Connect the signal
                 graphCheckBox.clicked.connect(self.sendSignal)
                 analyseButton.clicked.connect(self.sendAnalyse)
                 optionButton.clicked.connect(self.sendColor)
-                psdButton.clicked.connect(self.sendPsd)
+                asdButton.clicked.connect(self.sendPsd)
 
                 # Increase row index
                 row += 1
